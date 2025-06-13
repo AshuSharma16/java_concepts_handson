@@ -1,0 +1,6 @@
+id      name        Salary
+101     ashu        200000
+102     ram         100000
+103     nisha       30000
+104     Karan       89000
+                    90000

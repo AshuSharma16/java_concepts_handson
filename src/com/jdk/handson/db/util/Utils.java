@@ -76,7 +76,17 @@ public class Utils {
                 .salary(Double.valueOf(85767))
                 .build();
 
-        return Arrays.asList(e1, e2, e3, e4, e5, e6);
+        Employee e7 = Employee.builder()
+                .empId(555)
+                .empName("Dharam")
+                .phones(asList("987748596"))
+                .department("DEV")
+                .ratings("C")
+                .salary(Double.valueOf(60000))
+                .city("Bangalore")
+                .build();
+
+        return Arrays.asList(e1, e2, e3, e4, e5, e6 , e7);
     }
 
 

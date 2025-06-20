@@ -76,5 +76,17 @@ public class PlayWithCollectors {
         Map<String, List<Employee>> grpbyGrade = listOfDuplicateNameEmp.stream()
                 .collect(Collectors.groupingBy(Employee::getRatings));
         grpbyGrade.forEach((k, v) -> System.out.println("key : " + k + "and value is :" + v));
+
+
+
+        // find the name of employee from each department
+        final Map<String, List<String>> collect = EmployeeDBUtils.getEmployees()
+                                    .stream()
+                                    .collect(
+                                            Collectors.groupingBy(
+                                                    Employee::getDepartment,Collectors.mapping(
+                                                            Employee::getEmpName,Collectors.toList())));
+        System.out.println("collect all employee from each deparment : -" +collect);
+
     }
 }

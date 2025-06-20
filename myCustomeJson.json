@@ -1,0 +1,41 @@
+{
+"email": "bcavill0@statcounter.com",
+"first_name": "Birgit",
+"gender": "Female",
+"id": 1,
+"last_name": "Cavill",
+"technologyStacks": {
+    "java": [
+            {
+            "categoty": "java developer",
+            "rating": "8",
+            "subcategories":
+                {
+                "subcategory":
+                    [
+                        {
+                        "devtypes": "distributed"
+                        }
+                    ]
+                }
+            }
+        ],
+		
+		 "Angular":
+        [
+            {
+            "categoty": "UI developer",
+            "rating": "2",
+            "subcategories":
+                {
+                "subcategory":
+                    [
+                        {
+                        "devtypes": "Front End"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
